@@ -1,3 +1,7 @@
 package com.geeno.pokedex.data.models
 
-data class PokedexListEntry()
+data class PokedexListEntry(
+    val pokemonName: String,
+    val imageUrl: String,
+    val number: Int
+)
