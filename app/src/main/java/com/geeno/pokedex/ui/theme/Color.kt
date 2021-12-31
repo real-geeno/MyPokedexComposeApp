@@ -1,4 +1,4 @@
-package com.geeno.myapplication.ui.theme
+package com.geeno.pokedex.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

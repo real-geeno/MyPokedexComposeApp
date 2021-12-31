@@ -1,4 +1,4 @@
-package com.geeno.myapplication.ui.theme
+package com.geeno.pokedex.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

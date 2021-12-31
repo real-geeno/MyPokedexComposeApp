@@ -1,4 +1,4 @@
-package com.geeno.myapplication
+package com.geeno.pokedex
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.geeno.myapplication.ui.theme.JetpackComposePokedexTheme
+import com.geeno.pokedex.ui.theme.JetpackComposePokedexTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
