@@ -134,7 +134,9 @@ fun PokemonList(
         }
         items(itemCount) {
             if (it >= itemCount - 1 && !endReached && !isLoading && !isSearching) {
-                viewModel.loadPokemonPaginated()
+                LaunchedEffect(key1 = true){
+                    viewModel.loadPokemonPaginated()
+                }
             }
 
             PokedexRow(rowIndex = it, entries = pokemonList, navController = navController)
@@ -205,6 +207,7 @@ fun PokedexEntry(
                     modifier = Modifier
                         .scale(0.5f)
                         .align(CenterHorizontally)
+                        .offset(y = (-64).dp)
                 )
             } else if (painterState is ImagePainter.State.Success) {
                 LaunchedEffect(key1 = painter) {
